@@ -1,9 +1,11 @@
 select count(*) 
-	from insurance_claims_dataset -- Expect 50000
+	from insurance_claims_dataset
+ -- Expect 50000
 
 	
 select count(distinct "Claim_ID") as "distinct_count" 
-	from insurance_claims_dataset -- 50000 : No Duplicates
+	from insurance_claims_dataset
+ -- 50000 : No Duplicates
 
 	
 -- Outliers : Claim_Amount
